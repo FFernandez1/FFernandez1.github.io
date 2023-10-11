@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Website</title>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var zendeskScript = document.createElement('script');
+        zendeskScript.setAttribute('id','ze-snippet');
+        zendeskScript.setAttribute('src', 'https://static.zdassets.com/ekr/snippet.js?key=c391704d-f902-4359-919f-20f119b8b7c7');
+        document.head.appendChild(zendeskScript);
+    });
+    </script>
+</head>
+<body>
+    <h1>Welcome to My Sample Website!</h1>
+    <p>This is a sample website created to demonstrate how to load an external script after the DOM has loaded.</p>
+</body>
+</html>
